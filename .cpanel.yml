@@ -7,6 +7,8 @@ deployment:
     - /bin/cp gallery.html $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp service.html $DEPLOYPATH
+    - /bin/cp sitemap.html $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
