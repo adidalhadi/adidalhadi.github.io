@@ -118,11 +118,12 @@ header .logo i {
 
 header .navbar a {
   font-size: 1.6rem;
-  margin-left: 2rem;
+  margin-right: 2rem;
   color: #666;
 }
 
 #menu-bar {
+  font-family: "Nunito", sans-serif;
   font-size: 3rem;
   cursor: pointer;
   color: #666;
@@ -130,6 +131,78 @@ header .navbar a {
   border-radius: 0.3rem;
   padding: 0.5rem 1.5rem;
   display: none;
+}
+.lang-menu {
+  font-family: "Nunito";
+  width: 90px;
+  text-align: right;
+  font-weight: bold;
+  position: relative;
+  margin-right: 0;
+}
+.lang-menu .selected-lang {
+  font-family: "Nunito";
+  display: flex;
+  justify-content: space-between;
+  line-height: 4.9;
+  cursor: pointer;
+}
+
+.lang-menu ul {
+  font-family: "Nunito";
+  margin: 0;
+  padding-left: 2px;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #f8f8f8;
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  width: 125px;
+  left: 0px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lang-menu ul li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menu ul li a {
+  text-decoration: none;
+  width: 125px;
+  padding: 5px 10px;
+  display: block;
+}
+
+.lang-menu ul li:hover {
+  background-color: #f2f2f2;
+}
+
+.lang-menu ul li a:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.id:before {
+  background-image: url(../images/flag-id.png);
+}
+
+.en:before {
+  background-image: url(../images/flag-en.png);
+}
+
+.lang-menu:hover ul {
+  display: block;
 }
 
 .home {
@@ -533,6 +606,7 @@ header .navbar a {
     width: 100%;
   }
 }
+
 .anm {
   font-size: 1.2rem;
   margin-left: 1.5rem;

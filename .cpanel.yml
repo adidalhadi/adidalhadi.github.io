@@ -14,4 +14,8 @@ deployment:
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp -R project $DEPLOYPATH
+    - /bin/cp -R tentang $DEPLOYPATH
+    - /bin/cp -R indeks.html $DEPLOYPATH
+    - /bin/cp -R servis.html $DEPLOYPATH
+    - /bin/cp -R galeri.html $DEPLOYPATH
+    - /bin/cp -R kontak.html $DEPLOYPATH
