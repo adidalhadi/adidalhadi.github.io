@@ -7,6 +7,10 @@ deployment:
     - /bin/cp gallery.html $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp service.html $DEPLOYPATH
+    - /bin/cp -R indeks.html $DEPLOYPATH
+    - /bin/cp -R servis.html $DEPLOYPATH
+    - /bin/cp -R galeri.html $DEPLOYPATH
+    - /bin/cp -R kontak.html $DEPLOYPATH
     - /bin/cp sitemap.html $DEPLOYPATH
     - /bin/cp sitemap.xml $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -15,7 +19,3 @@ deployment:
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R tentang $DEPLOYPATH
-    - /bin/cp -R indeks.html $DEPLOYPATH
-    - /bin/cp -R servis.html $DEPLOYPATH
-    - /bin/cp -R galeri.html $DEPLOYPATH
-    - /bin/cp -R kontak.html $DEPLOYPATH
