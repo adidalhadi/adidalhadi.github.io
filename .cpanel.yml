@@ -11,6 +11,7 @@ deployment:
     - /bin/cp -R servis.html $DEPLOYPATH
     - /bin/cp -R galeri.html $DEPLOYPATH
     - /bin/cp -R kontak.html $DEPLOYPATH
+    - /bin/cp -R tentang.html $DEPLOYPATH
     - /bin/cp sitemap.html $DEPLOYPATH
     - /bin/cp sitemap.xml $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
