@@ -20,3 +20,4 @@ deployment:
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R tentang $DEPLOYPATH
+    - /bin/cp -R project $DEPLOYPATH
